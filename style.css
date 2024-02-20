@@ -1,0 +1,432 @@
+*{
+    margin: 0;
+    font-family: Arial;
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 2px solid white;
+}
+/*toppanel*/
+
+.top-panel{
+    background-color: rgb(0, 12, 22);
+    height: 60px;
+    display: flex;
+    width: 1300px;
+    justify-content: space-evenly;
+}
+.amazon{
+    width: 120px;
+    height: 50px;
+    display: flex;
+    
+}
+.amazon-logo{
+    background-image: url("amazon_logo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 120px;
+    height: 60px;
+}
+/*boxii*/
+.address{
+    color: white;
+    /* font-style: ; */
+}
+.boxii{
+    margin-top: 5px;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+.location i{
+    color: white;
+    margin-top: 3px;
+}
+.deliver{
+    font-size: 0.8rem;
+    margin-left: 17px;
+    font-size: 70%;
+}
+.address{
+    font-weight: bold;
+}
+/*boxiii*/
+.boxiii{
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+.boxiii i{
+    color: rgb(60, 110, 153);
+    background-color: rgb(231, 145, 15);
+    width: 45px;
+    height: 2.4rem;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.3rem;
+    border-left: transparent;
+}
+.boxiii i:hover{
+    background-color: rgb(207, 130, 29);
+} 
+#dropdownbox{
+    height: 2.4rem;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.searchamazon input {
+    height: 2rem;
+    width: 20rem;
+}
+#dropdownbox{
+    width: 3rem;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    background-color: rgb(204, 204, 204);
+    border-right: transparent;
+}
+/*boxiv*/
+.boxiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.boxiv select{
+    width: 2.5rem;
+    height: 1rem;
+    margin-top: 1rem;
+}
+.signin p{
+    color: azure;
+    font-size: smaller;
+    display: flex;
+    margin-top: 0.4rem;
+}
+.signin select{
+    background: transparent;
+    color: beige;
+    font-weight: 900;
+}
+.ReturnOrder{
+    color: aliceblue;
+    margin-top: 0.7rem;
+}
+.cartIcon i {
+    color: aliceblue;
+    margin-top: 1.2rem;
+   font-size: 1.5rem;
+}
+.secondbar{
+    width: 1300px;
+    height: 40px;
+    display: flex;
+    background-color: rgba(23, 35, 49, 0.89);
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+}
+.fresh select{
+    font-weight: 600;
+    background: transparent;
+    color: aliceblue;
+    /* margin-left: -200px; */
+    border: transparent;
+    width: 3.8rem;
+}
+
+.download{
+    width: 20rem;
+    align-items: center;
+    justify-content: center;
+    text-align: end;
+    padding-right: 2rem;
+}
+/* main content */
+
+.mainhero{
+    width: 1000px;
+    height: 300px;
+    /* background-image: url("home.jpg"); */
+    align-items: center;
+    justify-content: center;
+}
+#x{
+    background-image: url("home.jpg");
+    width: 1300px;
+    height: 300px;
+    background-size: cover;
+    margin-bottom: 1rem;
+}
+.allinone{
+    width: 1300px;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: start;
+    justify-content: space-evenly;
+    background-color: transparent;
+    position: relative;
+    z-index: 3;
+    margin-top: -6.5rem;
+    
+}
+.aga{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: start;
+    justify-content: space-between;
+    background-color: white;
+    position: relative;
+    z-index: 3;
+    margin-top: -0rem;
+}
+.cushion{
+    background-image: url("box1_image.jpg");
+    background-size: cover;
+    width: 9rem;
+    height: 9rem;
+    margin-left: 0.5rem;
+    margin-top: 0.2rem;
+}.vases{
+    background-image: url("box2_image.jpg");
+    background-size: cover;
+    width: 9rem;
+    height: 9rem;
+    /* margin-top: 14rem;*/
+    margin-left: 0.2rem; 
+    margin-top: 0.2rem;
+}
+.homestorage{
+    background-image: url("box3_image.jpg");
+    background-size: cover;
+    width: 9rem;
+    height: 9rem;
+    align-content: flex-start;
+    margin-left: 0.5rem;
+}
+.lightingsolutions{
+    background-image: url("box4_image.jpg");
+    background-size: cover;
+    width: 9rem;
+    height: 9rem;
+    /* margin-right: 0.5rem;*/
+    margin-left: 0.2rem; 
+}
+
+
+/* second advertisement */
+
+.again{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    z-index: 3;
+    margin-top: 0rem;
+    margin-left: 0rem;
+    
+}
+.face{
+    background-image: url("box5_image.jpg");
+    background-size: cover;
+    width: 9rem;
+    height: 9rem;
+    margin-left: 0.5rem;
+    margin-top: 0.2rem;
+}.pets{
+    background-image: url("box6_image.jpg");
+    background-size: cover;
+    width: 9rem;
+    height: 9rem;
+    /* margin-top: 14rem;*/
+    margin-left: 0.2rem; 
+    margin-top: 0.2rem;
+}
+.stationary{
+    background-image: url("box7_image.jpg");
+    background-size: cover;
+    width: 9rem;
+    height: 9rem;
+    align-content: flex-start;
+    margin-left: 0.5rem;
+}
+.dresses{
+    background-image: url("box8_image.jpg");
+    background-size: cover;
+    width: 9rem;
+    height: 9rem;
+    /* margin-right: 0.5rem;*/
+    margin-left: 0.2rem; 
+}
+
+/* second advertisement */
+
+.stop{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    z-index: 3;
+    margin-top: 0rem;
+    
+    
+}
+.boy{
+    background-image: url("img9.jpg");
+    background-size: cover;
+    width: 9rem;
+    height: 9rem;
+    margin-left: 0.5rem;
+    margin-top: 0.2rem;
+}.shoes{
+    background-image: url("img10.jpg");
+    background-size: cover;
+    width: 9rem;
+    height: 9rem;
+    /* margin-top: 14rem;*/
+    margin-left: 0.2rem; 
+    margin-top: 0.2rem;
+}
+.watch{
+    background-image: url("img11.jpg");
+    background-size: cover;
+    width: 9rem;
+    height: 9rem;
+    align-content: flex-start;
+    margin-left: 0.5rem;
+}
+.bags{
+    background-image: url("img12.jpg");
+    background-size: cover;
+    width: 9rem;
+    height: 9rem;
+    /* margin-right: 0.5rem;*/
+    margin-left: 0.2rem; 
+}
+.onemore{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    z-index: 3;
+    margin-top: 0rem;   
+    
+}
+.mats{
+    background-image: url("pic2.jpg");
+    background-size: cover;
+    width: 9rem;
+    height: 9rem;
+    margin-left: 0.5rem;
+    margin-top: 0.2rem;
+}.astro{
+    background-image: url("pic3.jpg");
+    background-size: cover;
+    width: 9rem;
+    height: 9rem;
+    /* margin-top: 14rem;*/
+    margin-left: 0.2rem; 
+    margin-top: 0.2rem;
+}
+.curtain{
+    background-image: url("pic4.jpg");
+    background-size: cover;
+    width: 9rem;
+    height: 9rem;
+    align-content: flex-start;
+    margin-left: 0.5rem;
+}
+.light{
+    background-image: url("pic5.jpg");
+    background-size: cover;
+    width: 9rem;
+    height: 9rem;
+    /* margin-right: 0.5rem;*/
+    margin-left: 0.2rem; 
+}
+.mainfoot{
+    height: 300px;
+    width: 1300px;
+    background-color: rgb(13, 41, 65);
+    display: flex;
+    color: white;
+    justify-content: space-evenly;
+    padding-top: 3rem;
+}
+.footone{
+    width: 1300px;
+    height: 30px;
+    background-color: rgb(43, 62, 78);
+    color: white;
+    text-align: center;
+    font-weight: 300;
+    padding-top: 0.8rem;
+
+}
+.footone a{
+    text-decoration: none;
+    color: white;
+}
+.mainfoot a{
+    color: white;
+    text-decoration: none;
+    font-size: smaller;
+}
+.mainfoot p{
+    font-weight: 800;
+    padding-bottom: 1.2rem;
+}
+.final p{
+    width: 1300px;
+    height: 100px;
+    background-color: rgb(1, 6, 20);
+    color: white;
+    text-align: center;
+    font-size: smaller;
+    padding-top: 2.5rem;    
+}
+.block{
+    width: 1300px;
+    height: 150px;
+     display: flex;
+     background-color: rgb(13, 41, 65);
+     border-top: 1px solid white;
+     justify-content: center;
+
+}
+.finalphotu{
+    background-image: url("amazon_logo.png");
+    background-size: cover;
+    width: 120px;
+    height: 60px; 
+}
+.button button{
+    background-color: rgb(13, 41, 65);
+    align-items: center;
+    justify-content: center;
+    padding-top: 1rem;
+    margin-top: 1rem;
+    
+}
